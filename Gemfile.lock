@@ -123,13 +123,14 @@ GEM
     rack (1.6.4)
     rack-conneg (0.1.5)
       rack (>= 1.0)
-    rack-google-analytics (1.2.0)
-      actionpack
-      activesupport
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-tracker (1.1.0)
+      activesupport (>= 3.0)
+      rack (>= 1.4)
+      tilt (>= 1.4)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -195,7 +196,7 @@ DEPENDENCIES
   pry
   puma
   rack-conneg
-  rack-google-analytics
+  rack-tracker
   rake
   rspec
   sinatra (~> 1.4)
