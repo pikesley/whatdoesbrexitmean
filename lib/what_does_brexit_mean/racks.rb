@@ -1,9 +1,12 @@
 require 'rack/conneg'
+require 'rack/google-analytics'
 
 module WhatDoesBrexitMean
   class App < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'views'
+
+    use Rack::GoogleAnalytics, :tracker => 'UA-46327971-5'
 
     use Rack::Conneg do |conneg|
       conneg.set :accept_all_extensions, true
@@ -14,8 +17,6 @@ module WhatDoesBrexitMean
         :json
       ]
     end
-
-    use Rack::GoogleAnalytics, :tracker => 'UA-46327971-5'
 
     before do
       if negotiated?
