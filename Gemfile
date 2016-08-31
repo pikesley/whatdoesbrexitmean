@@ -9,6 +9,7 @@ gem 'rack-tracker'
 gem 'rake'
 gem 'compass'
 gem 'bootstrap-sass'
+gem 'erubis'
 
 group :test do
   gem 'rspec'
