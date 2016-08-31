@@ -8789,7 +8789,13 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, ../sass/styles.scss */
+/* line 4, ../sass/styles.scss */
+body {
+  background-color: black;
+  color: white;
+}
+
+/* line 9, ../sass/styles.scss */
 h1 {
   text-transform: uppercase;
   text-align: center;
