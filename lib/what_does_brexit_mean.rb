@@ -21,11 +21,19 @@ module WhatDoesBrexitMean
           @gh_url = 'https://github.com/pikesley/whatdoesbrexitmean'
           erb :index, layout: :default
         end
+
+        wants.json do
+          redirect to '/brexit'
+        end
       end
     end
 
     get '/brexit/?' do
       respond_to do |wants|
+        wants.html do
+          redirect to '/'
+        end
+
         wants.json do
           {
             brexit: brexit
