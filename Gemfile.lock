@@ -188,6 +188,7 @@ DEPENDENCIES
   capybara
   compass
   coveralls
+  erubis
   guard
   guard-jasmine
   guard-rspec
