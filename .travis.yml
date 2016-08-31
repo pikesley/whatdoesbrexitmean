@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.3.1
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: W+RpmSY7+bPC1QoeFQSXwaz3BWBMAvowmFTqmsWmIu672UltnN7Ce0a4V+5zX16+TlDLMnBINlE+FIy6K7Fv43LvwTTIhDoTiosXTPsLk0viUTcjoGouj8mARcpoVfIGqLkepIPPTJgjALHMNDIWD5F6LlKThbOH7NRgcAQeB/S2pnJjR0AMm7ENf97Oq52Zyar2MDvo/fhN+o+aaf/zdldV+3x3xzBrNbs1RJrBG98Pm+FdYdMtwKBQOGtkB9+JpB0m0klVTewXDpDMWhCKMn45T3b2gaxvKOG2PCMNyEKooxUPOPH4jn7v8tjoOuvVwPkWPByCzgjeFq+4VdLB69x57g9cC9HkBLGoGRH34YJGlZLWq+jGzN9xdEEezSl0onH5+3R6PDHykuD+8xMRKrrr2/Kg4YUhhrJ0nteA7pYw+Q/VZU2eY57hevsKJjg2EBVxdOfs4hKnzumJB/RL9U/2TngIE16u4WNNg4wHEo06bz2fO9cImyn1yQkwfqNkzp1l/e4aFZldJXrTdZllZ2tsHBLStToLDGyMJopBmRHAblaQVKfJSfSf96ykzZzFa/JT+o7OT9eXqxsGAc6vD3P0ygeyQq3kcazhTthexKjAWP7gND4qMxPl/SLUagAhl5RANlkWmlSu3bFC8itpVr2njsVswBf0CiodOYa0lKs=
+  app: what-does-brexit-mean
+  on:
+    repo: pikesley/whatdoesbrexitmean
