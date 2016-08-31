@@ -18,6 +18,7 @@ module WhatDoesBrexitMean
         wants.html do
           @content = "<h1>#{brexit}</h1>"
           @title = 'What Does Brexit Mean?'
+          @gh_url = 'https://github.com/pikesley/whatdoesbrexitmean'
           erb :index, layout: :default
         end
       end
