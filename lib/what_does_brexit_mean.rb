@@ -16,14 +16,18 @@ module WhatDoesBrexitMean
 
       respond_to do |wants|
         wants.html do
-          @content = '<h1>Brexit</h1>'
+          @content = "<h1>#{brexit}</h1>"
           @title = 'What Does Brexit Mean?'
           erb :index, layout: :default
         end
+      end
+    end
 
+    get '/brexit/?' do
+      respond_to do |wants|
         wants.json do
           {
-            brexit: 'Brexit'
+            brexit: brexit
           }.to_json
         end
       end

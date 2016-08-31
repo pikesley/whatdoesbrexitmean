@@ -15,6 +15,8 @@ module WhatDoesBrexitMean
       ]
     end
 
+    use Rack::GoogleAnalytics, :tracker => 'UA-46327971-5'
+
     before do
       if negotiated?
         content_type negotiated_type

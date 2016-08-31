@@ -6,8 +6,8 @@ module WhatDoesBrexitMean
   describe Helpers do
     let(:helpers) { TestHelper.new }
 
-    it 'says hello' do
-      expect(helpers.hello).to eq 'Hello'
+    it 'Brexit' do
+      expect(helpers.brexit).to eq 'Brexit'
     end
   end
 end

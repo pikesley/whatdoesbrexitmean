@@ -1,7 +1,7 @@
 module WhatDoesBrexitMean
   module Helpers
-    def hello
-      'Hello'
+    def brexit
+      'Brexit'
     end
   end
 end

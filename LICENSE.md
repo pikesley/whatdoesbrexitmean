@@ -1,4 +1,4 @@
-##Copyright (c) 2016 YOUR-NAME-HERE
+##Copyright (c) 2016 Sam Pikesley
 
 #MIT License
 
