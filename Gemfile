@@ -10,6 +10,7 @@ gem 'rake'
 gem 'compass'
 gem 'bootstrap-sass'
 gem 'erubis'
+gem 'puma'
 
 group :test do
   gem 'rspec'

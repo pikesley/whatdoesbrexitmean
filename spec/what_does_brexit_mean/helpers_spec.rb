@@ -9,5 +9,9 @@ module WhatDoesBrexitMean
     it 'Brexit' do
       expect(helpers.brexit).to eq 'Brexit'
     end
+
+    it 'has a config' do
+      expect(CONFIG).to be_a Hash
+    end
   end
 end

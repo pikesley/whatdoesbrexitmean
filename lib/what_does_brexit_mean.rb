@@ -1,9 +1,10 @@
 require 'sinatra/base'
 require 'tilt/erubis'
 require 'json'
+require 'yaml'
 
-require_relative 'what_does_brexit_mean/racks'
 require_relative 'what_does_brexit_mean/helpers'
+require_relative 'what_does_brexit_mean/racks'
 
 module WhatDoesBrexitMean
   class App < Sinatra::Base
