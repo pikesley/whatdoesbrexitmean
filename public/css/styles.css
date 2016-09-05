@@ -8802,3 +8802,8 @@ h1 {
   font-family: 'Passion One';
   font-size: 20vw;
 }
+
+/* line 16, ../sass/styles.scss */
+a:hover {
+  text-decoration: none;
+}
