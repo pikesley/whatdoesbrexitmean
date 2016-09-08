@@ -8807,3 +8807,8 @@ h1 {
 a:hover {
   text-decoration: none;
 }
+
+/* line 20, ../sass/styles.scss */
+#brexit {
+  display: none;
+}
