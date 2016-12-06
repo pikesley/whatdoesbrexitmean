@@ -41,7 +41,11 @@ module WhatDoesBrexitMean
 
         wants.json do
           {
-            brexit: brexit
+            brexit: [
+              :red,
+              :white,
+              :blue
+            ]
           }.to_json
         end
       end
