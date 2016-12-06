@@ -1,3 +1,7 @@
-<div  id='brexit'>
-  <%= @content %>
+<div id='brexit'>
+  <a href='/'>
+    <h1>
+      <% @content.each_pair do |colour, letters| %><span class='<%= colour %>'><%= letters %></span><% end %>
+    </h1>
+  </a>
 </div>

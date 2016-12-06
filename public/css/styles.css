@@ -8802,13 +8802,25 @@ h1 {
   font-family: 'Passion One';
   font-size: 20vw;
 }
+/* line 15, ../sass/styles.scss */
+h1 .red {
+  color: #ff0000;
+}
+/* line 19, ../sass/styles.scss */
+h1 .white {
+  color: #ffffff;
+}
+/* line 23, ../sass/styles.scss */
+h1 .blue {
+  color: #0000ff;
+}
 
-/* line 16, ../sass/styles.scss */
+/* line 28, ../sass/styles.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 20, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 #brexit {
   display: none;
 }
