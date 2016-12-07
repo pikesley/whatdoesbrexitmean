@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require 'tilt/erubis'
+require 'erubis'
 require 'json'
 require 'yaml'
 
