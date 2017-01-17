@@ -10,7 +10,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Passion One';
-  font-size: 20vw;
+  font-size: 6vw;
 
   .red {
     color: #ff0000;
@@ -31,4 +31,11 @@ a:hover {
 
 #brexit {
   display: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }

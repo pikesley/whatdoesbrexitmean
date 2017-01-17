@@ -8800,7 +8800,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Passion One';
-  font-size: 20vw;
+  font-size: 6vw;
 }
 /* line 15, ../sass/styles.scss */
 h1 .red {
@@ -8823,4 +8823,12 @@ a:hover {
 /* line 32, ../sass/styles.scss */
 #brexit {
   display: none;
+}
+
+/* line 36, ../sass/styles.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }

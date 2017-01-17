@@ -13,11 +13,7 @@ module WhatDoesBrexitMean
       expect(last_response).to be_ok
       expect(JSON.parse last_response.body).to eq (
         {
-          'brexit' => [
-            'red',
-            'white',
-            'blue'
-          ]
+          'on_fire' => 'everything'
         }
       )
     end

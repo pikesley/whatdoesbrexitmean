@@ -17,11 +17,7 @@ module WhatDoesBrexitMean
 
       respond_to do |wants|
         wants.html do
-          @content = {
-            red: 'BR',
-            white: 'EX',
-            blue: 'IT'
-          }
+          @img = 'https://media.giphy.com/media/l4Ki6oZ4oPrrgLl9m/giphy.gif'
           @title = 'What Does Brexit Mean?'
           @gh_url = 'https://github.com/pikesley/whatdoesbrexitmean'
           erb :index, layout: :default
@@ -41,11 +37,7 @@ module WhatDoesBrexitMean
 
         wants.json do
           {
-            brexit: [
-              :red,
-              :white,
-              :blue
-            ]
+            on_fire: :everything
           }.to_json
         end
       end
