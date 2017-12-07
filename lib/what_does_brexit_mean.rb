@@ -17,7 +17,7 @@ module WhatDoesBrexitMean
 
       respond_to do |wants|
         wants.html do
-          @img = 'https://media.giphy.com/media/l4Ki6oZ4oPrrgLl9m/giphy.gif'
+          @content = '<iframe width="100%" height="500" frameborder="0" src="http://www.bbc.co.uk/news/av/embed/p05q9kx5/42260350"></iframe>'
           @title = 'What Does Brexit Mean?'
           @gh_url = 'https://github.com/pikesley/whatdoesbrexitmean'
           erb :index, layout: :default
